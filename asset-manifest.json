@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/UpAI-portal/static/css/main.66f5fbc6.css",
-    "main.js": "/UpAI-portal/static/js/main.acfa3e06.js",
+    "main.css": "/UpAI-portal/static/css/main.29dbc85f.css",
+    "main.js": "/UpAI-portal/static/js/main.7f893702.js",
     "index.html": "/UpAI-portal/index.html",
-    "main.66f5fbc6.css.map": "/UpAI-portal/static/css/main.66f5fbc6.css.map",
-    "main.acfa3e06.js.map": "/UpAI-portal/static/js/main.acfa3e06.js.map"
+    "main.29dbc85f.css.map": "/UpAI-portal/static/css/main.29dbc85f.css.map",
+    "main.7f893702.js.map": "/UpAI-portal/static/js/main.7f893702.js.map"
   },
   "entrypoints": [
-    "static/css/main.66f5fbc6.css",
-    "static/js/main.acfa3e06.js"
+    "static/css/main.29dbc85f.css",
+    "static/js/main.7f893702.js"
   ]
 }
