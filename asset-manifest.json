@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/upaitech/static/css/main.66f5fbc6.css",
+    "main.js": "/upaitech/static/js/main.acfa3e06.js",
+    "index.html": "/upaitech/index.html",
+    "main.66f5fbc6.css.map": "/upaitech/static/css/main.66f5fbc6.css.map",
+    "main.acfa3e06.js.map": "/upaitech/static/js/main.acfa3e06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66f5fbc6.css",
+    "static/js/main.acfa3e06.js"
+  ]
+}
