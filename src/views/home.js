@@ -25,7 +25,7 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Soft UI Pro</title>
+        <title>UPAI - AI Trading</title>
         <meta property="og:title" content="Soft UI Pro" />
       </Helmet>
       <Header  ></Header>
