@@ -1,80 +1,49 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useRef, useEffect } from "react";
 
-import { Helmet } from 'react-helmet'
+import { Helmet } from "react-helmet";
 
-import Header from '../components/header'
-import PrimaryPinkButton from '../components/primary-pink-button'
-import OutlineGrayButton from '../components/outline-gray-button'
-import FeatureCard from '../components/feature-card'
-import OutlineBlackButton from '../components/outline-black-button'
-import ListItem from '../components/list-item'
-import Footer from '../components/footer'
-import './home.css'
-
-import ContactUs from '../components/contactUS'
+import Header from "../components/header";
+import PrimaryPinkButton from "../components/primary-pink-button";
+import OutlineGrayButton from "../components/outline-gray-button";
+import FeatureCard from "../components/feature-card";
+import OutlineBlackButton from "../components/outline-black-button";
+import ListItem from "../components/list-item";
+import Footer from "../components/footer";
+import "./home.css";
 
 const Home = (props) => {
   let contactRef = useRef(null);
-  
+
   const onContactButtonClick = () => {
     window.scrollTo({ behavior: "smooth", top: contactRef.current.offsetTop });
   };
 
-
-  
   return (
     <div className="home-container">
       <Helmet>
         <title>UPAI - AI Trading</title>
         <meta property="og:title" content="Soft UI Pro" />
       </Helmet>
-      <Header  ></Header>
+      <Header></Header>
       <div className="home-hero">
         <div className="home-container01">
           <div className="home-card">
-            <h1 className="home-text HeadingOne">Let AI be your fund Manager.</h1>
+            <h1 className="home-text HeadingOne">
+              Let AI be your fund Manager.
+            </h1>
             <h1 className="home-text01 HeadingOne">Choose the best</h1>
             <span className="home-text02 Lead">
-              {/* <span>
-                Find the story of Creative Tim&apos;s most complex design
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span> */}
-              <span>
-                We have the AI in Market
-              </span>
+              <span>We have the AI in Market</span>
             </span>
             <div className="home-container02">
               <div className="home-container03">
-                <PrimaryPinkButton button="contact us" onClick={onContactButtonClick}></PrimaryPinkButton>
+                <PrimaryPinkButton
+                  button="contact us"
+                  onClick={onContactButtonClick}
+                ></PrimaryPinkButton>
               </div>
               <OutlineGrayButton button="read more"></OutlineGrayButton>
             </div>
-            {/* <div className="home-container04">
-              <img
-                alt="image"
-                src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-pinterest.svg"
-                className="home-image"
-              />
-              <img
-                alt="image"
-                src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-netflix.svg"
-                className="home-image01"
-              />
-              <img
-                alt="image"
-                src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-coinbase.svg"
-                className="home-image02"
-              />
-              <img
-                alt="image"
-                src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-nasa.svg"
-                className="home-image03"
-              />
-            </div> */}
           </div>
         </div>
       </div>
@@ -90,12 +59,12 @@ const Home = (props) => {
           new_prop="Easy & Secure"
           image_src="/playground_assets/cube1.svg"
         ></FeatureCard>
-        <FeatureCard 
+        <FeatureCard
           image_src="/playground_assets/person1.svg"
-          text="Make informed trading decisions with our AI-powered intraday calls service."
-          title="Smart Trades"
-          new_prop="Smart Trades">
-        </FeatureCard>
+          text="Unlock the captivating allure of AI's autonomous decision-making, where trade execution transcends human sentiment."
+          title="AI Decision-Making"
+          new_prop="AI Decision-Making"
+        ></FeatureCard>
         <FeatureCard
           text="Make informed trading decisions with our AI-powered intraday calls."
           title="Smart Trades"
@@ -116,7 +85,8 @@ const Home = (props) => {
           </h1>
           <span className="home-text07">
             <span className="home-text08">
-            The stock market is a device for transferring money from the impatient to the patient.
+              The stock market is a device for transferring money from the
+              impatient to the patient.
             </span>
           </span>
         </div>
@@ -126,10 +96,13 @@ const Home = (props) => {
               alt="image"
               src="/playground_assets/upaiAsset01.jpeg"
               className="home-image05"
+              height="500cm"
             />
             <span className="home-text09 Small">
               <span className="home-text10">
-                &quot;The rise of powerful AI will be either the best or the worst thing ever to happen to humanity. We do not yet know which.&quot;
+                &quot;The rise of powerful AI will be either the best or the
+                worst thing ever to happen to humanity. We do not yet know
+                which.&quot;
               </span>
               <br></br>
               <span className="home-text12">-Stephen Hawking</span>
@@ -139,6 +112,7 @@ const Home = (props) => {
                 alt="image"
                 src="/playground_assets/upaiAsset02.jpeg"
                 className="home-image06"
+                height="250cm"    
               />
             </div>
           </div>
@@ -147,37 +121,41 @@ const Home = (props) => {
               alt="image"
               src="/playground_assets/upaiAsset03.jpeg"
               className="home-image07"
-              height="600"
+              height="200cm"
             />
             <div className="home-container11">
               <h3 className="HeadingTwo">
-                <span className="home-text14">
-                  How to get started?
-                </span>
+                <span className="home-text14">How to get started?</span>
               </h3>
               <p>
                 <br></br>
                 <span className="home-text16">
-                  Fund your account: Once you've created your account, you'll need to fund it with the amount of money you want to trade with. We accept a variety of payment methods, including credit and debit cards, bank transfers, and cryptocurrencies.
+                  Fund your account: Once you've created your account, you'll
+                  need to fund it with the amount of money you want to trade
+                  with. We accept a variety of payment methods, including credit
+                  and debit cards, bank transfers, and cryptocurrencies.
                 </span>
                 <br></br>
                 <span></span>
                 <br></br>
                 <span className="home-text19">
-                  Configure your trading strategy: Our platform allows you to customize your trading strategy to suit your specific needs and risk tolerance. You can choose from a variety of pre-built strategies or create your own using our advanced AI algorithms.
+                  Configure your trading strategy: Our platform allows you to
+                  customize your trading strategy to suit your specific needs
+                  and risk tolerance. You can choose from a variety of pre-built
+                  strategies or create your own using our advanced AI
+                  algorithms.
                 </span>
                 <br></br>
                 <span></span>
                 <br></br>
                 <span className="home-text22">
-                  Monitor your trades: With your trading strategy in place, you can sit back and watch as our AI platform executes trades on your behalf. You can monitor the progress of your trades in real-time and adjust your strategy as needed.
+                  Monitor your trades: With your trading strategy in place, you
+                  can sit back and watch as our AI platform executes trades on
+                  your behalf. You can monitor the progress of your trades in
+                  real-time and adjust your strategy as needed.
                 </span>
                 <br></br>
                 <span></span>
-                <br></br>
-                <span className="home-text22">
-                  Withdraw Your Profits: As Your Trades Start To Generate Profits, You Can Withdraw Them To Your Bank Account Or Any Other Preferred Method.
-                </span>
                 <br></br>
               </p>
             </div>
@@ -263,7 +241,7 @@ const Home = (props) => {
                 <div className="home-container25">
                   <img
                     alt="image"
-                    src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/small-logos/logo-apple.svg"
+                    src="/playground_assets/logo-stock-market.svg"
                     className="home-image15"
                   />
                 </div>
@@ -318,7 +296,9 @@ const Home = (props) => {
             </svg>
           </div>
           <h2 className="home-text30 HeadingTwo">
-            <span className="home-text31">Get Familier With Your Components</span>
+            <span className="home-text31">
+              Get Familier With Your Components
+            </span>
           </h2>
           <h3 className="home-text32 HeadingTwo">
             <span className="home-text33">How To Handle Them</span>
@@ -343,7 +323,10 @@ const Home = (props) => {
                 <span>Website visitors</span>
                 <span></span>
               </span>
-              <OutlineBlackButton button="get started" onClick={onContactButtonClick}></OutlineBlackButton>
+              <OutlineBlackButton
+                button="get started"
+                onClick={onContactButtonClick}
+              ></OutlineBlackButton>
             </div>
           </div>
           <div className="home-container36">
@@ -394,15 +377,17 @@ const Home = (props) => {
                 <span>Website visitors</span>
                 <span></span>
               </span>
-              <OutlineBlackButton button="get started" onClick={onContactButtonClick}></OutlineBlackButton>
+              <OutlineBlackButton
+                button="get started"
+                onClick={onContactButtonClick}
+              ></OutlineBlackButton>
             </div>
           </div>
         </div>
       </section>
-      <ContactUs reference={contactRef}/>
       <Footer></Footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

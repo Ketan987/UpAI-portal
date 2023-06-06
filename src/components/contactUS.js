@@ -1,9 +1,12 @@
 import React from "react";
 import '../views/profile.css';
 import PrimaryBlueButton from '../components/primary-blue-button';
+import Header from '../components/header'
 
 const ContactUs = (props) => {
     return (
+      <>
+        <Header  ></Header>
         <div className="profile-contact" ref={props.reference}>
         <div className="profile-container09">
           <div className="profile-form">
@@ -123,6 +126,7 @@ const ContactUs = (props) => {
           </div>
         </div>
       </div>
+      </>
     )
 }
 
