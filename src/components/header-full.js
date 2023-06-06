@@ -17,10 +17,13 @@ const HeaderFull = (props) => {
               Home
             </Link>
             <Link to="/profile" className="header-full-navlink2 Large">
-              Profile
+              Features
             </Link>
             <Link to="/coming-soon" className="header-full-navlink3 Large">
               Coming Soon
+            </Link>
+            <Link to="/coming-soon" className="header-full-navlink3 Large">
+              Contact Us
             </Link>
           </div>
           <div className="header-full-container1">

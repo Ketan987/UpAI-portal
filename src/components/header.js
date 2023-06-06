@@ -16,18 +16,18 @@ const Header = (props) => {
           <div className="header-container1">
             <div className="header-container2">
               <div className="header-menu">
-              <span className="header-navlink1 Large" > 
+              <Link to="/" className="header-navlink5 Large">
                 Home
-              </span>
-              <span className="header-navlink2 Large">
+              </Link>
+              <Link to="/profile" className="header-navlink6 Large">
                 Features
-              </span>
-              <span className="header-navlink3 Large">
-                Details
-              </span>
-              <span className="header-navlink3 Large">
-                Contact
-              </span>
+              </Link>
+              <Link to="/coming-soon" className="header-navlink7 Large">
+                Coming Soon
+              </Link>
+              <Link to="/coming-soon" className="header-navlink7 Large">
+                Contact Us
+              </Link>
             </div>
             </div>
             <div data-role="BurgerMenu" className="header-burger-menu">
@@ -55,10 +55,13 @@ const Header = (props) => {
               Home
             </Link>
             <Link to="/profile" className="header-navlink6 Large">
-              Profile
+              Features
             </Link>
             <Link to="/coming-soon" className="header-navlink7 Large">
               Coming Soon
+            </Link>
+            <Link to="/contactUS" className="header-navlink7 Large">
+              Contact Us
             </Link>
           </div>
         </div>
