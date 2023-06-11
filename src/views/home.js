@@ -240,9 +240,7 @@ const Home = (props) => {
               </span>
               <OutlineBlackButton
                 button="get started"
-                onClick={() => {
-                  console.log("bhok01");
-                }}
+                onClick={() => history.push("/products")}
               ></OutlineBlackButton>
             </div>
           </div>
@@ -296,9 +294,7 @@ const Home = (props) => {
               </span>
               <OutlineBlackButton
                 button="get started"
-                onClick={() => {
-                  console.log("bhok02");
-                }}
+                onClick={() => history.push("/contactus")}
               ></OutlineBlackButton>
             </div>
           </div>
