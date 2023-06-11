@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 
-import { Helmet } from 'react-helmet'
+import { Helmet } from "react-helmet";
 
-import HeaderFull from '../components/header-full'
-import OutlineBlueButton from '../components/outline-blue-button'
-import NextButton from '../components/next-button'
-import BlogCard from '../components/blog-card'
-import PrimaryBlueButton from '../components/primary-blue-button'
-import Footer from '../components/footer'
-import './profile.css'
-import ContactUs from '../components/contactUS'
+import HeaderFull from "../components/header";
+import OutlineBlueButton from "../components/outline-blue-button";
+import NextButton from "../components/next-button";
+import BlogCard from "../components/blog-card";
+import PrimaryBlueButton from "../components/primary-blue-button";
+import Footer from "../components/footer";
+import "./profile.css";
+import ContactUs from "../components/contactUS";
 
 const Profile = (props) => {
   return (
@@ -97,7 +97,7 @@ const Profile = (props) => {
       <ContactUs />
       <Footer></Footer>
     </div>
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;

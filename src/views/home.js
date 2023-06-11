@@ -10,13 +10,10 @@ import OutlineBlackButton from "../components/outline-black-button";
 import ListItem from "../components/list-item";
 import Footer from "../components/footer";
 import "./home.css";
+import { useHistory } from "react-router-dom";
 
 const Home = (props) => {
-  let contactRef = useRef(null);
-
-  const onContactButtonClick = () => {
-    window.scrollTo({ behavior: "smooth", top: contactRef.current.offsetTop });
-  };
+  const history = useHistory();
 
   return (
     <div className="home-container">
@@ -38,11 +35,14 @@ const Home = (props) => {
             <div className="home-container02">
               <div className="home-container03">
                 <PrimaryPinkButton
+                  onClick={() => history.push("/contactus")}
                   button="contact us"
-                  onClick={onContactButtonClick}
                 ></PrimaryPinkButton>
               </div>
-              <OutlineGrayButton button="read more"></OutlineGrayButton>
+              <OutlineGrayButton
+                button="read more"
+                onClick={() => history.push("/products")}
+              ></OutlineGrayButton>
             </div>
           </div>
         </div>
@@ -100,19 +100,16 @@ const Home = (props) => {
             />
             <span className="home-text09 Small">
               <span className="home-text10">
-                &quot;The rise of powerful AI will be either the best or the
-                worst thing ever to happen to humanity. We do not yet know
-                which.&quot;
+                &quot;AI in the stock market: Where human intuition meets
+                machine precision, unlocking untapped potential.&quot;
               </span>
-              <br></br>
-              <span className="home-text12">-Stephen Hawking</span>
             </span>
             <div className="home-container09">
               <img
                 alt="image"
                 src="/playground_assets/upaiAsset02.jpeg"
                 className="home-image06"
-                height="250cm"    
+                height="250cm"
               />
             </div>
           </div>
@@ -166,110 +163,28 @@ const Home = (props) => {
         <div className="home-container12">
           <div className="home-container13">
             <div className="home-container14">
-              <h2 className="home-text23 HeadingOne">Work with us</h2>
+              <h2 className="home-text23 HeadingOne">
+                How AI Drives Unprecedented Growth and Profits
+              </h2>
               <p className="home-text24 Lead">
-                <span className="home-text25">
-                  Whatever your qualification is - we got you!
-                </span>
+                <span className="home-text25">AI got you Covered!</span>
               </p>
               <p className="home-text26 Body">
                 <span className="home-text27">
-                  &quot;Take up one idea. Make that one idea your life - think
-                  of it, dream of it, live on that idea. Let the brain, muscles,
-                  nerves, every part of your body, be full of that idea, and
-                  just leave every other idea alone. This is the way to success.
-                  A single rose can be my garden... a single friend, my
-                  world.&quot;
+                  &quot;AI Revolutionizes Stock Market: Profits Soar with
+                  Advanced Analysis. Cutting-edge algorithms and machine
+                  learning enable AI to swiftly analyze vast financial data,
+                  identifying patterns and predicting market trends. Investors
+                  leverage AI insights for informed decision-making, maximizing
+                  profitability. This transformative integration of AI reshapes
+                  stock markets, ushering in a new era of intelligent
+                  trading.&quot;
                 </span>
               </p>
-              <p className="home-text28">Mark Jojansen</p>
-              <p className="home-text29 Small">Project manager, Atlassian</p>
-              <div className="home-container15">
-                <img
-                  alt="image"
-                  src="/playground_assets/team-4-200h.jpg"
-                  className="home-image08"
-                />
-                <div className="home-container16"></div>
-                <img
-                  alt="image"
-                  src="/playground_assets/team-3-200h.jpg"
-                  className="home-image09"
-                />
-                <div className="home-container17"></div>
-                <img
-                  alt="image"
-                  src="/playground_assets/team-2-200h.jpg"
-                  className="home-image10"
-                />
-              </div>
             </div>
           </div>
           <div className="home-logos">
-            <div className="home-container18">
-              <div className="home-container19">
-                <div className="home-container20">
-                  <img
-                    alt="image"
-                    src="/playground_assets/logo-asana.svg"
-                    className="home-image11"
-                  />
-                </div>
-                <div className="home-container21">
-                  <img
-                    alt="image"
-                    src="/playground_assets/logo-slack.svg"
-                    className="home-image12"
-                  />
-                </div>
-                <div className="home-container22">
-                  <img
-                    alt="image"
-                    src="/playground_assets/logo-google-drive.svg"
-                    className="home-image13"
-                  />
-                </div>
-              </div>
-              <div className="home-container23">
-                <div className="home-container24">
-                  <img
-                    alt="image"
-                    src="/playground_assets/logo-shopify.svg"
-                    className="home-image14"
-                  />
-                </div>
-                <div className="home-container25">
-                  <img
-                    alt="image"
-                    src="/playground_assets/logo-stock-market.svg"
-                    className="home-image15"
-                  />
-                </div>
-                <div className="home-container26">
-                  <img
-                    alt="image"
-                    src="/playground_assets/logo-invision.svg"
-                    className="home-image16"
-                  />
-                </div>
-              </div>
-              <div className="home-container27">
-                <div className="home-container28">
-                  <img
-                    alt="image"
-                    src="/playground_assets/logo-attlasian.svg"
-                    className="home-image17"
-                  />
-                </div>
-                <div className="home-container29">
-                  <img
-                    alt="image"
-                    src="/playground_assets/logo-weave.svg"
-                    className="home-image18"
-                  />
-                </div>
-              </div>
-            </div>
+            <p> bc</p>
           </div>
         </div>
         <img
@@ -325,7 +240,9 @@ const Home = (props) => {
               </span>
               <OutlineBlackButton
                 button="get started"
-                onClick={onContactButtonClick}
+                onClick={() => {
+                  console.log("bhok01");
+                }}
               ></OutlineBlackButton>
             </div>
           </div>
@@ -379,7 +296,9 @@ const Home = (props) => {
               </span>
               <OutlineBlackButton
                 button="get started"
-                onClick={onContactButtonClick}
+                onClick={() => {
+                  console.log("bhok02");
+                }}
               ></OutlineBlackButton>
             </div>
           </div>

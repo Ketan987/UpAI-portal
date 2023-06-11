@@ -459,8 +459,8 @@
   width: 100%;
 }
 .home-container21 {
-  width: 58px;
-  height: 58px;
+  width: 100px;
+  height: 100px;
   padding: var(--dl-space-space-unit);
   object-fit: cover;
   border-radius: var(--dl-radius-radius-round);
@@ -493,8 +493,8 @@
   justify-content: space-between;
 }
 .home-container24 {
-  width: 58px;
-  height: 58px;
+  width: 100px;
+  height: 100px;
   padding: var(--dl-space-space-unit);
   object-fit: cover;
   border-radius: var(--dl-radius-radius-round);
@@ -505,8 +505,8 @@
   object-fit: cover;
 }
 .home-container25 {
-  width: 58px;
-  height: 58px;
+  width: 100px;
+  height: 100px;
   padding: var(--dl-space-space-unit);
   align-self: center;
   object-fit: cover;
