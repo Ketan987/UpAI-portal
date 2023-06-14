@@ -1,6 +1,7 @@
 {
   "name": "soft-ui-pro",
   "version": "1.0.0",
+  "homepage": "https://upai.tech/",
   "private": true,
   "dependencies": {
     "@craco/craco": "^7.0.0-alpha.0",
