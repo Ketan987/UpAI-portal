@@ -31,6 +31,14 @@
       "name": "eject",
       "command": "npm run eject",
       "runAtStart": false
+    },
+    "dev:build": {
+      "name": "dev:build",
+      "command": "dev:build"
+    },
+    "dev": {
+      "name": "dev",
+      "command": "dev"
     }
   }
 }
