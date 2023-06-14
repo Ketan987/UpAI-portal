@@ -1,25 +1,28 @@
-import React from 'react'
+import React from "react";
 
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 
-import './outline-gray-button.css'
+import "./outline-gray-button.css";
 
 const OutlineGrayButton = (props) => {
   return (
     <div className="outline-gray-button-container">
-      <button className="outline-gray-button-button button ButtonSmall">
+      <button
+        className="outline-gray-button-button button ButtonSmall"
+        onClick={props.onClick}
+      >
         {props.button}
       </button>
     </div>
-  )
-}
+  );
+};
 
 OutlineGrayButton.defaultProps = {
-  button: 'Button',
-}
+  button: "Button",
+};
 
 OutlineGrayButton.propTypes = {
   button: PropTypes.string,
-}
+};
 
-export default OutlineGrayButton
+export default OutlineGrayButton;

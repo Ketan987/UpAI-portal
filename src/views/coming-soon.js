@@ -1,25 +1,25 @@
-import React from 'react'
+import React from "react";
 
-import { Helmet } from 'react-helmet'
+import { Helmet } from "react-helmet";
 
-import Header from '../components/header'
-import SecondaryButton from '../components/secondary-button'
-import FooterGray from '../components/footer-gray'
-import './coming-soon.css'
+import Header from "../components/header";
+import SecondaryButton from "../components/secondary-button";
+import "./coming-soon.css";
+import Footer from "../components/footer";
 
 const ComingSoon = (props) => {
   return (
     <div className="coming-soon-container">
       <Helmet>
-        <title>ComingSoon - Soft UI Pro</title>
+        <title>ComingSoon - UPAI</title>
         <meta property="og:title" content="ComingSoon - Soft UI Pro" />
       </Helmet>
       <Header></Header>
       <div className="coming-soon-container1">
         <div className="coming-soon-main">
           <div className="coming-soon-container2">
-            <h1 className="coming-soon-text HeadingOne">You Work With</h1>
-            <h1 className="coming-soon-text1">Soft Design System</h1>
+            <h1 className="coming-soon-text HeadingOne">Subscribe TO UPAI</h1>
+            <h1 className="coming-soon-text1">Stay in the know!</h1>
             <p className="coming-soon-text2 Lead">
               <span className="coming-soon-text3">
                 The time is now for it be okay to be great. Subscribe now and
@@ -119,9 +119,9 @@ const ComingSoon = (props) => {
           </div>
         </div>
       </div>
-      <FooterGray></FooterGray>
+      <Footer /> 
     </div>
-  )
-}
+  );
+};
 
-export default ComingSoon
+export default ComingSoon;

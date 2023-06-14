@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 import './style.css'
 import ComingSoon from './views/coming-soon'
-import Profile from './views/profile'
+import Products from './components/products';
 import Home from './views/home'
 import ContactUs from './components/contactUS'
 
@@ -14,7 +14,7 @@ const App = () => {
       <div>
         <Route component={ComingSoon} exact path="/coming-soon" />
         <Route component={ContactUs} exact path="/contactus" />
-        <Route component={Profile} exact path="/features" />
+        <Route component={Products} exact path="/products" />
         <Route component={Home} exact path="/" />
       </div>
     </Router>

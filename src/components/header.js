@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
-import './header.css'
+import "./header.css";
 
 const Header = (props) => {
   // style={props.home ? {backgroundColor: 'red'}: ''}
@@ -12,23 +12,27 @@ const Header = (props) => {
           <Link to="/" className="header-navlink Large">
             UPAI
           </Link>
-          
+
           <div className="header-container1">
             <div className="header-container2">
               <div className="header-menu">
-              <Link to="/" className="header-navlink5 Large">
-                Home
-              </Link>
-              <Link to="/profile" className="header-navlink6 Large">
-                Features
-              </Link>
-              <Link to="/coming-soon" className="header-navlink7 Large">
-                Coming Soon
-              </Link>
-              <Link to="/coming-soon" className="header-navlink7 Large">
-                Contact Us
-              </Link>
-            </div>
+                <Link to="/" className="header-navlink1 Large">
+                  Home
+                </Link>
+                <Link to="/products" className="header-navlink2 Large">
+                  Product
+                </Link>
+                <Link to="/coming-soon" className="header-navlink3 Large">
+                  Comining Soon
+                </Link>
+                <a
+                  href="https://marker.upai.tech/"
+                  className="header-navlink3 Large"
+                  target="_blank"
+                >
+                  Join Da Club
+                </a>
+              </div>
             </div>
             <div data-role="BurgerMenu" className="header-burger-menu">
               <svg viewBox="0 0 1024 1024" className="header-icon">
@@ -54,20 +58,24 @@ const Header = (props) => {
             <Link to="/" className="header-navlink5 Large">
               Home
             </Link>
-            <Link to="/profile" className="header-navlink6 Large">
-              Features
+            <Link to="/products" className="header-navlink6 Large">
+              Product
             </Link>
-            <Link to="/coming-soon" className="header-navlink7 Large">
+            <Link to="/coming-soon" className="header-navlink6 Large">
               Coming Soon
             </Link>
-            <Link to="/contactUS" className="header-navlink7 Large">
-              Contact Us
-            </Link>
+            <a
+              to="https://marker.upai.tech/"
+              className="header-navlink7 Large"
+              target="_blank"
+            >
+              Join da Club
+            </a>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

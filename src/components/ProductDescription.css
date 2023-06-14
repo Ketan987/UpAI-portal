@@ -1,0 +1,67 @@
+.product-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-container img {
+  width: 350px;
+  margin: 10px;
+}
+
+.content-container {
+  max-width: 600px;
+}
+
+.title {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 24px;
+}
+
+.description {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  margin-top: 20px;
+}
+
+.subtitle {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.feature-list {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.conclusion {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  margin-top: 20px;
+}
+
+/* Media query for mobile view */
+@media (max-width: 767px) {
+  .product-description {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .image-container img {
+    width: 100%;
+    max-width: 350px;
+  }
+}
