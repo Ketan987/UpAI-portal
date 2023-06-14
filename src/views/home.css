@@ -41,7 +41,7 @@
 }
 .home-text {
   text-align: center;
-  background-image: linear-gradient(310deg, #7928ca, #ff0080);
+  background-color: #003594;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -140,7 +140,7 @@
 }
 .home-text05 {
   margin-bottom: var(--dl-space-space-halfunit);
-  background-image: linear-gradient(310deg, #7928ca, #ff0080);
+  background-color: #003594;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -198,7 +198,7 @@
   align-self: flex-end;
   margin-top: var(--dl-space-space-unitandahalfunit);
   align-items: flex-start;
-  border-color: #cb0c9f;
+  border-color: #1e029c;
   border-style: solid;
   border-width: 1px;
   border-radius: 0.25rem;
@@ -206,7 +206,7 @@
   flex-direction: column;
 }
 .home-text10 {
-  color: rgb(203, 12, 159);
+  color: rgb(35, 5, 167);
   display: inline;
   font-weight: 400;
   white-space: normal;
@@ -299,7 +299,7 @@
   position: relative;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(310deg, #7928ca, #ff0080);
+  background-image: linear-gradient(310deg, #71a1af, #003594);
 }
 .home-container12 {
   flex: 0 0 auto;
@@ -615,7 +615,7 @@
   border-radius: var(--dl-radius-radius-radius75);
   flex-direction: column;
   justify-content: center;
-  background-image: linear-gradient(310deg, #7928ca, #ff0080);
+  background-image: linear-gradient(310deg, #71a1af, #003594);
 }
 .home-icon {
   fill: var(--dl-color-gray-800);
@@ -624,7 +624,7 @@
 }
 .home-text30 {
   margin-top: var(--dl-space-space-unitandahalfunit);
-  background-image: linear-gradient(310deg, #7928ca, #ff0080);
+  background-image: linear-gradient(310deg, #71a1af, #003594);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -673,7 +673,7 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   background-size: cover;
   justify-content: center;
-  background-image: url("https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/team-working.jpg");
+  background-image: url("https://i.pinimg.com/originals/89/b6/ab/89b6abf7ca981d1e2f18b0b97ac860fb.jpg");
   background-position: center;
 }
 .home-container33:hover {
@@ -762,7 +762,7 @@
   padding-bottom: var(--dl-space-space-doubleunit);
   background-size: cover;
   justify-content: center;
-  background-image: url("https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/coffee-shop.jpg");
+  background-image: url("https://th.bing.com/th/id/OIP.BR8LOWDvdm_u6-ffhrO_ggHaE7?pid=ImgDet&rs=1");
   background-position: center;
 }
 .home-container39:hover {
