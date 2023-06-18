@@ -65,9 +65,9 @@ const Header = (props) => {
               Coming Soon
             </Link>
             <a
-              to="https://marker.upai.tech/"
-              className="header-navlink7 Large"
+              href="https://marker.upai.tech/"
               target="_blank"
+              className="header-navlink7 Large"
             >
               Join da Club
             </a>

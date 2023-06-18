@@ -129,8 +129,7 @@ const Home = (props) => {
                 <span className="home-text16">
                   Fund your account: Once you've created your account, you'll
                   need to fund it with the amount of money you want to trade
-                  with. We accept a variety of payment methods, including credit
-                  and debit cards, bank transfers, and cryptocurrencies.
+                  with.
                 </span>
                 <br></br>
                 <span></span>
