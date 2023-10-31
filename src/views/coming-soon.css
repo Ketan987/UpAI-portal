@@ -46,6 +46,14 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-tripleunit);
 }
+
+.frame-form {
+  position: absolute;
+  top: 10%;
+  width: 55%; 
+  height: 420px;
+}
+
 .coming-soon-text {
   font-size: 3rem;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -157,6 +165,10 @@
   width: 100%;
 }
 @media(max-width: 991px) {
+
+  .frame-form {
+    width: 90%; 
+  }
   .coming-soon-container1 {
     background-size: auto;
   }

@@ -26,7 +26,7 @@ const Home = (props) => {
         <div className="home-container01">
           <div className="home-card">
             <h1 className="home-text HeadingOne">
-              Let AI be your fund Manager.
+              Let AI be your assistant.
             </h1>
             <h1 className="home-text01 HeadingOne">Choose the best</h1>
             <span className="home-text02 Lead">

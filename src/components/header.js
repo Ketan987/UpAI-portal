@@ -23,7 +23,7 @@ const Header = (props) => {
                   Product
                 </Link>
                 <Link to="/coming-soon" className="header-navlink3 Large">
-                  Comining Soon
+                  Coming Soon
                 </Link>
                 <a
                   href="https://marker.upai.tech/"

@@ -32,7 +32,7 @@
 .footer-container3 {
   flex: 0 0 auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 .footer-text02 {
@@ -143,6 +143,32 @@
   position: absolute;
   object-fit: cover;
 }
+/* Style the container for the icons */
+.icon-container {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  align-items: center; /* Vertical alignment as needed */
+  padding: 10px; /* Add some spacing around the icons */
+}
+
+/* Style the icons */
+.icon-container a {
+  text-decoration: none; /* Remove underline from links */
+  margin: 0 10px; /* Adjust horizontal spacing between icons */
+}
+
+/* Optional: Add hover effect on icons */
+.icon-container a:hover img {
+  opacity: 0.8;
+  transition: 0.2s; /* Smooth transition on hover */
+}
+
+.social-image {
+  width: 30px; /* Set the width to your desired size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
 @media(max-width: 991px) {
   .footer-container {
     padding: var(--dl-space-space-doubleunit);

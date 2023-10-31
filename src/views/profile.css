@@ -431,6 +431,12 @@
   position: absolute;
   background-image: linear-gradient(310deg,#2152ff,#21d4fd);
 }
+
+.profile-checkbox-input {
+  padding: 10px;
+}
+
+
 @media(max-width: 991px) {
   .profile-container01 {
     margin-left: var(--dl-space-space-tripleunit);

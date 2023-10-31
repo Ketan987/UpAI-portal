@@ -18,22 +18,10 @@ const ComingSoon = (props) => {
       <div className="coming-soon-container1">
         <div className="coming-soon-main">
           <div className="coming-soon-container2">
-            <h1 className="coming-soon-text HeadingOne">Subscribe TO UPAI</h1>
-            <h1 className="coming-soon-text1">Stay in the know!</h1>
-            <p className="coming-soon-text2 Lead">
-              <span className="coming-soon-text3">
-                The time is now for it be okay to be great. Subscribe now and
-                get notified when it&apos;s launched!
-              </span>
-            </p>
-            <div className="coming-soon-container3">
-              <input
-                type="text"
-                placeholder="Email here"
-                className="coming-soon-textinput Small input"
-              />
-              <SecondaryButton button="Subscribe"></SecondaryButton>
-            </div>
+            
+            <iframe className="frame-form" src="https://forms.office.com/r/M4jwk3jtE6?embed=true"  allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+            
+            {/* frameborder="0" marginwidth="0" marginheight="0" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen */}
           </div>
           <div className="coming-soon-grid">
             <img
