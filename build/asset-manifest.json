@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.724b02bf.css",
-    "main.js": "/static/js/main.96460351.js",
+    "main.css": "/static/css/main.f4d3913f.css",
+    "main.js": "/static/js/main.d9980571.js",
+    "static/media/curved5-1400w.jpg": "/static/media/curved5-1400w.2595b5cda8118cdc50d2.jpg",
     "index.html": "/index.html",
-    "main.724b02bf.css.map": "/static/css/main.724b02bf.css.map",
-    "main.96460351.js.map": "/static/js/main.96460351.js.map"
+    "main.f4d3913f.css.map": "/static/css/main.f4d3913f.css.map",
+    "main.d9980571.js.map": "/static/js/main.d9980571.js.map"
   },
   "entrypoints": [
-    "static/css/main.724b02bf.css",
-    "static/js/main.96460351.js"
+    "static/css/main.f4d3913f.css",
+    "static/js/main.d9980571.js"
   ]
 }

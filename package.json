@@ -18,7 +18,10 @@
     "build": "craco build",
     "test": "craco test --env=jsdom",
     "eject": "craco eject",
-    "dev": "serve -s build"
+    "dev": "serve -s build",
+    "start:RS": "react-scripts start",
+    "build:RS": "react-scripts build",
+    "test:RS": "react-scripts test"
   },
   "engines": {
     "node": "16.x"
